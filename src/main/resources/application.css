@@ -1,0 +1,221 @@
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: 'fontfaceRegular';
+    src: url('font/font.playfair/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'fontfaceExtrabold';
+    src: url('font/font.playfair/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Pixelbold';
+    src: url('font/font.pixel/PixelifySans-Bold.ttf') format('truetype');
+}
+header{
+    background-color: #B47E00;
+    width: 279px;
+    height: 540px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: 'fontfaceRegular';
+    
+}
+.diamond {
+    position: absolute;
+    left: 118px;
+    top: 43px;
+    width: 30px;
+    height: 30px;
+}
+.pearl {
+    position: absolute;
+    left: 103.3px;
+    top: 23px;
+    width: 60px;
+    height: 60px; 
+}
+.seja {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    width: 110px;
+    height: 70px; 
+}
+.Bem-Vindo {
+    position: absolute;
+    left: 15px;
+    top: 139px; 
+    font-size: 15px;
+    width: 110px;
+    height: 50px;
+}
+.ao {
+    position: absolute;
+    left: 91px;
+    top: 125px;
+    font-size: 18px;
+    width: 70px;
+    height: 50px;
+}
+.GeG {
+    position: absolute;
+    left: 131px;
+    top: 122px;
+    font-size: 22px;
+    width: 150px;
+    height: 55px;
+}
+.acessar {
+    position: absolute;
+    left: 30px;
+    top: 190px;
+    font-size: 11px;
+    color: aliceblue;
+    font-family: 'fontfaceExtrabold';
+}
+#rodape{
+    position: absolute;
+    left: 75px;
+    top: 490px;
+    font-size: 12px;
+    font-size: 10px;
+    color: aliceblue;
+    
+}
+#rodape a{
+    text-decoration: none;
+    color: #000000;
+}
+#rodape a:hover{
+    color: gold;
+}
+.animation {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 320px;
+    top: 70px;
+}
+#user{
+    position: absolute;
+    left: 60px;
+    top: 250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: transparent;
+    border: transparent;
+    width: 160px;
+    height: 0px;
+    padding: 15px;
+}
+.login input{
+    font-family: 'Pixelbold';
+    font-size: 14px;
+    transition: box-shadow 0.3s aese transform 0.3s aese;
+}
+#password{
+    position: absolute;
+    left: 60px;
+    top: 290px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: transparent;
+    width: 160px;
+    height: 0px;
+    padding: 15px;
+}
+.img_user {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 28px;
+    height: 29px;
+    left: 25px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user:hover{
+    font-size: 18px;
+    box-shadow: 0 0 15px 5px rgba(219, 208, 52, 0.5);
+}
+#password:hover{
+    font-size: 18px;
+    box-shadow: 0 0 15px 5px rgba(219, 208, 52, 0.5);
+}
+.img_key {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 28px;
+  height: 29px;
+  left: 25px;
+  top: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#entrar {
+    position: absolute;
+    left: 71px;
+    top: 400px;
+    background-color: transparent;
+    border-radius: 60px;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 9px 39px;
+    font-family: 'fontfaceRegular';
+    transition: box-shadow 0.3s aese transform 0.3s aese;
+    
+}
+#necklace {
+    position: absolute;
+    left: 105px;
+    top: 435px;
+    height: 60px;
+    width: 60px;
+}
+#entrar:hover{
+    box-shadow: 0 0 15px 5px rgba(219, 208, 52, 0.5);
+    transform: scale(1.1);
+    color: white;
+    font-family: 'fontfaceExtrabold';
+
+}
+#fechar{
+    position: absolute;
+    left: 820px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: transparent;
+    border: transparent;
+    transition: box-shadow 0.3s aese transform 0.3s aese;
+}
+#fechar:hover{
+    box-shadow: 0 0 15px 5px rgba(219, 52, 52, 0.5);
+}
+#img_fechar {
+    position: absolute;
+    left: 820px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+}
+.rectangle{
+    background-color: transparent;
+    border: 3px solid;
+    border-image: linear-gradient(to right, black 31.5%, #B47E00 10%) 1;
+    width: 97vw;
+    height: 520px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    
+}
+
+

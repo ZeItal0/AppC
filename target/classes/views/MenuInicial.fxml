@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane fx:id="AnchorPane" fx:controller="Gapp.MainController" prefHeight="830.0" prefWidth="1536.0" xmlns="http://javafx.com/javafx/23.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <WebView fx:id="menuView" prefHeight="832.0" prefWidth="460.0" style="-fx-background-color: ff0000;" />
+      <WebView fx:id="areaView" layoutX="460.0" prefHeight="832.0" prefWidth="1076.0" />
+   </children>
+</AnchorPane>
